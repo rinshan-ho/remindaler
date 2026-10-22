@@ -1,0 +1,41 @@
+# Gradle / Kotlin
+.gradle/
+.kotlin/
+**/build/
+local.properties
+
+# Android Studio / IDE
+.idea/
+*.iml
+.vscode/
+
+# APK / App Bundle
+*.apk
+*.aab
+
+# Signing material and local secrets
+*.jks
+*.keystore
+*.p12
+*.pfx
+keystore.properties
+signing.properties
+google-services.json
+.env
+
+# Native build output
+.externalNativeBuild/
+.cxx/
+
+# Test / debug output
+captures/
+*.hprof
+*.log
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*:Zone.Identifier
+*.swp
+*.orig
+*.rej
